@@ -1,15 +1,15 @@
-:root{
+:root {
     --bg: radial-gradient(circle, #134b9f, #123984, #0d2869, #061750, #040338);
 }
 
-html{
+html {
     box-sizing: border-box;
     height: 100%;
 }
 
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
@@ -54,7 +54,7 @@ body {
     width: 326px;
 }
 
-.calc-button-row{
+.calc-button-row {
     display: flex;
     justify-content: space-between;
     margin: 5% 0;
@@ -73,6 +73,7 @@ body {
     font-size: 24px;
     height: 65px;
 }
+
 .calc-button:last-child {
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
@@ -84,17 +85,17 @@ body {
     background: darkblue;
 }
 
-.calc-button:last-child:hover{
+.calc-button:last-child:hover {
     background-color: inherit;
     color: inherit;
 }
 
-.calc-button:hover{
+.calc-button:hover {
     background-color: inherit;
 }
 
-.calc-button:active{
-    background-color: rgba(35,35,35,0.50);
+.calc-button:active {
+    background-color: rgba(35, 35, 35, 0.50);
 }
 
 .double {
