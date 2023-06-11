@@ -1,7 +1,7 @@
-(()=>{
+(() => {
 
     let sliderBlock = document.querySelector('.slider')
-    if(sliderBlock != null) {
+    if (sliderBlock != null) {
         let prevButton = sliderBlock.querySelector("#prevButton");
         let nextButton = sliderBlock.querySelector("#nextButton");
         let mainImage = sliderBlock.querySelector("#mainImage");
@@ -23,11 +23,10 @@
                     // next
 
                     smallImages[currentPositonInStack].style.border = 'none';
-                    if(currentPositonInStack < smallImages.length-1){
+                    if (currentPositonInStack < smallImages.length - 1) {
                         currentPositonInStack++;
                         smallImages[currentPositonInStack].style.border = '5px solid yellow';
-                    }
-                    else{
+                    } else {
                         currentPositonInStack = 0;
                         smallImages[currentPositonInStack].style.border = '5px solid yellow';
                     }
@@ -37,7 +36,7 @@
                     // prev
 
                     smallImages[currentPositonInStack].style.border = 'none';
-                    if (currentPositonInStack  !== 0) {
+                    if (currentPositonInStack !== 0) {
                         currentPositonInStack--;
                         smallImages[currentPositonInStack].style.border = '5px solid yellow';
                     } else {

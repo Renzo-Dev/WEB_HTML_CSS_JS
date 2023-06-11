@@ -20,7 +20,6 @@ body {
     background: var(--bg);
     display: flex;
     font-family: "Cascadia Mono", serif;
-    font-display: swap;
     height: inherit;
     justify-content: center;
 }
