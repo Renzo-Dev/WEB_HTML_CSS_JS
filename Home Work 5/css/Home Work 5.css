@@ -1,25 +1,17 @@
 html, body {
     height: 100%;
-    background-color: antiquewhite;
+    background-color: darkgray;
 }
+
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
-.bgGreen {
-    background-color: lawngreen;
-}
-.textWhite {
-    font-size: 26px;
-    color: white;
+.bgTable{
+
 }
 
-.active {
-    background-color: black;
-    color: orange;
-}
+.textColor {
 
-.lighted {
-    background-color: red;
 }
