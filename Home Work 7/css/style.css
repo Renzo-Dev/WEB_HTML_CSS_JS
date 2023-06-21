@@ -1,0 +1,68 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.border-timer {
+    /*visibility: hidden;*/
+    width: 400px;
+    height: 100px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 300000;
+    background-color: black;
+    opacity: 80%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.timer__time {
+    font-family: "Segoe UI", serif;
+    opacity: 100%;
+    margin-top: -15px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.timer__time div {
+    margin-right: 10px;
+}
+
+.timer__names {
+    font-family: "Segoe UI", serif;
+    opacity: 100%;
+    font-size: 17px;
+    display: flex;
+    width: 190px;
+}
+
+.timer__names div:first-child {
+    margin-right: 35px;
+    margin-left: -37px;
+}
+
+.timer__names div:nth-child(1) {
+    margin-right: 20px;
+}
+
+.timer__names div:nth-child(2) {
+    margin-right: 25px;
+}
+
+
+.timer__names div:nth-child(3) {
+    margin-right: 25px;
+}

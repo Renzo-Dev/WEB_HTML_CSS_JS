@@ -1,5 +1,4 @@
 (() => {
-
     let sliderBlock = document.querySelector('.slider')
     if (sliderBlock != null) {
         let prevButton = sliderBlock.querySelector("#prevButton");
