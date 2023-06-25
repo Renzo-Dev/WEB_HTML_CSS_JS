@@ -8,7 +8,7 @@ body, html,
 }
 
 .background__color {
-    background: linear-gradient(to bottom, #1f1f1f, black);
+    background: #0e0c1c;
     color: white;
     height: 100vh;
     display: flex;
@@ -17,11 +17,11 @@ body, html,
 }
 
 .login__form {
-    background: linear-gradient(to bottom, #090909, #1a1a1a);
+    background: #14112a;
     display: flex;
     flex-direction: column;
     width: 400px;
-    height: 450px;
+    height: fit-content;
     padding: 40px;
     border-radius: 15px;
 }
@@ -57,10 +57,11 @@ body, html,
 
 .title_login {
     font-family: "Segoe UI", serif;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 400;
     text-align: center;
     margin-bottom: 20px;
+    color: #e9055a;
 }
 
 ::placeholder {
@@ -77,10 +78,10 @@ body, html,
 }
 
 #login__button {
-    background: #76757b;
+    background: #bc0448;
     border: none;
     width: 200px;
-    height: 50px;
+    height: 40px;
     margin-top: 30px;
     align-self: center;
     border-radius: 10px;
@@ -90,11 +91,11 @@ body, html,
 }
 
 #login__button:hover {
-    border: 3px solid #3f3f3f;
+    color: #2c2c33;
 }
 
 #login__button:active {
-    background: #232627;
+    background: #810436;
 }
 
 .NotHaveAccount > a {
