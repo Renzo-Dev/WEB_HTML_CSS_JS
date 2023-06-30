@@ -1,0 +1,18 @@
+body, html {
+    background-color: #191534;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#myCanvas {
+    background-color: #221e53;
+}
+
+body > div {
+    margin-left: 25%;
+    margin-top: 70px;
+    color: #9bc263;
+}
