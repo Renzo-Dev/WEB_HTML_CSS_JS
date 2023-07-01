@@ -40,7 +40,7 @@ window.addEventListener('load', () => {
 
     let fill__selector__list__currencies = (currencyList) => {
         // получаем элемент блока ( select )
-        let selector__second__list__cur = second__currency.querySelector('.select__currency');
+        let selector__second__list__cur = first__currency.querySelector('.select__currency');
 
         currencyList.forEach((curr) => {
             createDOMElement('option', {}, selector__second__list__cur).innerHTML = curr.txt;
@@ -64,14 +64,14 @@ window.addEventListener('load', () => {
         converter(environment.currenciesList);
     });
 
-    let first__currency = document.getElementById('first__currency');
     let second__currency = document.getElementById('second__currency');
+    let first__currency = document.getElementById('first__currency');
 
     let converter = (currencies) => {
 
         first__currency.querySelector('.currency__value').addEventListener('input', (e) => {
 
-            let selectElement = second__currency.querySelector('.select__currency');
+            let selectElement = first__currency.querySelector('.select__currency');
 
             // Получаем выбранный элемент option
             let selectedOption;
@@ -88,10 +88,6 @@ window.addEventListener('load', () => {
 
             let second__value = second__currency.querySelector('.currency__value');
             second__value.value = e.target.value * currency.rate;
-
-            // console.log(selectedOption.value);
-            console.dir(currency.rate);
         })
     }
-
 });
