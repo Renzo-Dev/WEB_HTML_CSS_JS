@@ -1,0 +1,126 @@
+body, html {
+    user-select: none;
+    background-color: #191534;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.currency__container {
+    overflow-y: scroll;
+    width: 900px;
+    height: 500px;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.currency {
+    background-color: #221e53;
+    color: white;
+}
+
+.currency-table-list {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.currency-table-list th, .currency-table-list td {
+    font-family: "Segoe UI", serif;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.currency-table-list tr:hover {
+    background-color: white;
+    color: black;
+}
+
+.currency-table-list th:hover {
+    background-color: darkgray;
+}
+
+.converter {
+    margin: 30px auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+}
+
+.find__currency {
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    height: 20px;
+    width: 300px;
+    font-size: 25px;
+}
+
+.find__currency:focus {
+    outline: none;
+}
+
+::placeholder:not(.currency__value) {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Segoe UI", serif;
+    font-weight: 500;
+}
+
+.current__currency {
+    background-color: white;
+    width: 320px;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: "Segoe UI", serif;
+    font-weight: 450;
+}
+
+.select__currency {
+    width: 320px;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.select__currency:focus {
+    outline: none;
+}
+
+#first__currency, #second__currency {
+    display: flex;
+    flex-direction: column;
+}
+
+.currency__value {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 7px;
+    height: 15px;
+    padding: 10px;
+    border: none;
+}
+
+.currency__value:focus {
+    outline: none;
+}
+
+.currency__value::placeholder {
+    color: black;
+    font-size: 18px;
+    text-align: left;
+}
+
+.hidden {
+
+}
